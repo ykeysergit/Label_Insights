@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestMissingLetters" tests="10" skipped="0" failures="0" errors="0" timestamp="2017-03-07T09:05:37" hostname="zhena-VGN-FW140E" time="0.115">
+  <properties/>
+  <testcase name="missing letters. Input: null Output: abcdefghijklmnopqrstuvwxyz" classname="TestMissingLetters" time="0.014"/>
+  <testcase name="missing letters. Input: 1 Output: abcdefghijklmnopqrstuvwxyz" classname="TestMissingLetters" time="0.031"/>
+  <testcase name="missing letters. Input: € Output: abcdefghijklmnopqrstuvwxyz" classname="TestMissingLetters" time="0.003"/>
+  <testcase name="missing letters. Input:  Output: abcdefghijklmnopqrstuvwxyz" classname="TestMissingLetters" time="0.001"/>
+  <testcase name="missing letters. Input: a Output: bcdefghijklmnopqrstuvwxyz" classname="TestMissingLetters" time="0.011"/>
+  <testcase name="missing letters. Input: ab Output: cdefghijklmnopqrstuvwxyz" classname="TestMissingLetters" time="0.005"/>
+  <testcase name="missing letters. Input: abcdefghijklmnopqrstuvwxy Output: z" classname="TestMissingLetters" time="0.009"/>
+  <testcase name="missing letters. Input: abcdefghijklmnopqrstuvwxyz Output: " classname="TestMissingLetters" time="0.002"/>
+  <testcase name="missing letters. Input: ABcdefghijklmnopqrstuvwxyz Output: " classname="TestMissingLetters" time="0.005"/>
+  <testcase name="missing letters. Input: A quick brown fox jumps over the lazy dog Output: " classname="TestMissingLetters" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
